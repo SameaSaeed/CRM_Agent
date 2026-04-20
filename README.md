@@ -53,12 +53,19 @@ Want to get started immediately? Here's the fastest path:
 This project uses `uv` for dependency management. If you don't have `uv` installed, follow the instructions [here](https://docs.astral.sh/uv/guides/install-python/).
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/SameaSaeed/CRM_Agent
    cd crm-agent
    docker-compose up --build
    ```
 
 ## 🎯 Example Output
+
+<img width="943" height="356" alt="containers" src="https://github.com/user-attachments/assets/d23b8804-407f-4fd9-b0b8-939a613ba5bf" />
+
+<img width="850" height="448" alt="output2" src="https://github.com/user-attachments/assets/3d664e55-5f3f-4d23-8b1b-34471e30e21e" />
+
+<img width="854" height="434" alt="output3" src="https://github.com/user-attachments/assets/0d58a980-1d28-4fc7-9ca3-6040acb148a7" />
+
 
 ### Example Interactions
 
