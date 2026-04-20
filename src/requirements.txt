@@ -1,0 +1,14 @@
+langgraph
+langchain-groq
+langchain-mcp-adapters
+langchain-core
+mcp[cli]
+fastmcp
+pydantic
+sqlalchemy
+psycopg2-binary
+pandas
+faker
+python-dotenv
+nest-asyncio
+ipython

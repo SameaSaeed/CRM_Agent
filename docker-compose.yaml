@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  db:
+    build: 
+      context: ./db  # Point to the folder containing your Dockerfile
+    image: marketing_db_image # This names the local image after it builds
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: marketing_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d marketing_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  db-seed:
+    image: marketing_db_image # No 'build' here; it waits for the one above
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - SUPABASE_URI=postgresql://admin:password123@db:5432/marketing_db
+    command: python3 generate_data_tables.py
+
+  ralph-system:
+    build: ./src
+    stdin_open: true
+    tty: true
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - SUPABASE_URI=postgresql://admin:password123@db:5432/marketing_db
+      - GROQ_API_KEY=${GROQ_API_KEY}
+
+volumes:
+  postgres_data:
