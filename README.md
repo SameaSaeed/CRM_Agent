@@ -1,6 +1,6 @@
-# 🤖 CRM Agent - Ralph the Marketing AI
+# 🤖 CRM Agent - the Marketing AI
 
-Welcome to the **CRM Agent**! This project demonstrates an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real customer data. Meet **Ralph** - an AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications.
+Welcome to the **CRM Agent**! This project demonstrates an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real customer data. Meet an AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications.
 
 ## 🎯 Deliverables
 
@@ -59,8 +59,6 @@ This project uses `uv` for dependency management. If you don't have `uv` install
    ```
 
 ## 🎯 Example Output
-
-<img width="943" height="356" alt="containers" src="https://github.com/user-attachments/assets/d23b8804-407f-4fd9-b0b8-939a613ba5bf" />
 
 <img width="850" height="448" alt="output2" src="https://github.com/user-attachments/assets/3d664e55-5f3f-4d23-8b1b-34471e30e21e" />
 
