@@ -43,7 +43,7 @@ Welcome to the **CRM Agent**! This project demonstrates an intelligent Customer 
 
 - **Python 3.13+** installed
 - **PostgreSQL** database (we'll use Supabase)
-- **OpenAI API key**
+- **ChatGroq API key**
 - **Git** for cloning the repository
 
 ## ⚡ Quick Start
