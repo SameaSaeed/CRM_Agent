@@ -1,4 +1,4 @@
-# 🤖 CRM Agent - the Marketing AI
+# 🤖 CRM Agent for targeted marketing
 
 Welcome to the **CRM Agent**!; an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real customer data. Meet an AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications.
 
