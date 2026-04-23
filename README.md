@@ -1,6 +1,6 @@
 # 🤖 CRM Agent - the Marketing AI
 
-Welcome to the **CRM Agent**! This project demonstrates an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real customer data. Meet an AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications.
+Welcome to the **CRM Agent**!; an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real customer data. Meet an AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications.
 
 ## 🎯 Deliverables
 
